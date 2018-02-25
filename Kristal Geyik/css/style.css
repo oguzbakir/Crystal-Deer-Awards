@@ -120,7 +120,7 @@ fieldset {
 .section-title h2 {
     margin-top: 0;
     font-weight: 600;
-    border-bottom: 4px double #24b662;
+    border: solid #000000 3px;
 	border-radius: 25px;
     font-size: 30px;
     margin: 0 auto;
@@ -330,7 +330,7 @@ body.loaded #preloader{
 .home-section-background {
     position: relative;
     height: 100%;
-    background: url(../images/bg/bg.jpg);
+    background: url(../images/bg/geyik.jpg);
     background-size: cover;
     z-index: 1;
 }
@@ -607,9 +607,11 @@ ul.portfolio li.active {
 
 
 /* Testimonial */
-
+.asagikaydir{
+	padding-top:40px;
+}
 .testimonial-section {
-    background: #F9F9F9;
+    background: #D1E0EB;
 }
 
 .testimonial-carousel-list {
@@ -635,11 +637,11 @@ ul.portfolio li.active {
 }
 
 .testimonial-word h2 {
-    font-size: 12px;
+    font-size: 30px;
     text-transform: uppercase;
-	color: #24b662;
+	color: #000000;
     font-weight: 700;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     margin: 20px 0px;
 }
 
@@ -673,7 +675,7 @@ ul.portfolio li.active {
 
 .statistics-section {
 	position: relative;
-    background: url(../images/bg/statistics.jpg);
+    background: url(../images/bg/geyik.jpg);
     background-size: cover;
     z-index: 1;
 }
