@@ -322,7 +322,14 @@ body.loaded #preloader{
 
 
 /* Home Section and Navigation Menu */
-
+.logo-image{
+  margin-right: 10px;
+  width: 33px;
+  height: 48px;
+  background: url(../images/hacettepe_university_logo.png), no-repeat;
+  background-size: cover;
+  float: left;
+}
 .home-section {
     height: 100%;
 }
