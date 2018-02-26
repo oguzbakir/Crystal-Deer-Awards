@@ -468,7 +468,7 @@ body.loaded #preloader{
 }
 
 .navigation-background .logo {
-    padding-top: 18px;
+    padding-top: 7px;
     -webkit-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
@@ -500,7 +500,7 @@ body.loaded #preloader{
 .about-me {}
 
 .about-me h2 {
-	padding: 0px 50px;
+	padding: 10px 50px;
 }
 
 .about-me p {
@@ -512,7 +512,9 @@ body.loaded #preloader{
 
 /* Portfolio */
 
-.portfolio {}
+.portfolio {
+  background: #848484;
+}
 
 .portfolio-inner .mix {
     display: none;
@@ -618,7 +620,9 @@ ul.portfolio li.active {
 	padding-top:40px;
 }
 .testimonial-section {
-    background: #D1E0EB;
+    /*background: #D1E0EB;*/
+    background: #5e5f7f;
+
 }
 
 .testimonial-carousel-list {
