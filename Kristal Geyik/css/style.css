@@ -191,9 +191,11 @@ fieldset {
 	overflow: hidden;
 }
 
+.button-style:focus{
+  color: #ffffff !important;
+}
 .button-style:hover,
-.button-style:active,
-.button-style:focus {
+.button-style:active{
 	background: #B73756;
 	color: #ffffff !important;
 }
