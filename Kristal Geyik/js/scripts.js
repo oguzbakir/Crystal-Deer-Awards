@@ -107,14 +107,19 @@
 		
 		
         /* Typed.js */
-		
-        $(window).load(function(){
-        $(".typing").typed({
-            strings: ["Sezer", "Batuhan", "Adamdır"],    /* You can change the home section typing text from
-	                                                                                            here and do not use "&" use "and" */
-            typeSpeed: 70
-          });
-         });
+
+            $(window).load(function(){
+                    $(".typing").typed({
+                    strings: ["Sezer", "Batuhan", "Berkan", "Adamdır"],
+                    typeSpeed: 70,
+                    startDelay: 200,
+                    backSpeed: 20,
+                    backDelay: 500,
+                    loop: true,
+                    loopCount: 40,
+                });
+            });
+
         
 		 
         /* Parallax Background */
