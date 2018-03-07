@@ -100,7 +100,7 @@
 
     $(window).load(function () {
       $(".typing").typed({
-        strings: ["Sezer", "Batuhan", "Berkan", "Adamdır"],
+        strings: ["En beğendiğin ünlüye oy ver", "Seçtiğin ünlü seçilsin", "Okulumuzda ağırlayalım"],
         typeSpeed: 70,
         startDelay: 200,
         backSpeed: 20,
