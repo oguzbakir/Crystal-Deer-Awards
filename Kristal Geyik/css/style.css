@@ -58,6 +58,13 @@ Such as : Margin, Padding, colors
 
 /* Global Style */
 
+
+.topluluk{
+  margin-left: 0px;
+
+
+
+}
 body {
   font-size: 16px;
   font-weight: 400;
