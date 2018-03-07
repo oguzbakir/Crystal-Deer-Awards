@@ -65,6 +65,10 @@ Such as : Margin, Padding, colors
 
 
 }
+.grow{
+	font-size:32px;	
+
+}
 body {
   font-size: 16px;
   font-weight: 400;
