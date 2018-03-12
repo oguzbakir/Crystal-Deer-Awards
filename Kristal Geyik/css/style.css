@@ -66,7 +66,7 @@ Such as : Margin, Padding, colors
 
 }
 .grow{
-	font-size:32px;	
+	font-size:32px;
 
 }
 body {
@@ -538,7 +538,7 @@ body.loaded #preloader {
 
 .about-section {
   overflow: hidden;
-  background-color: #F9F9F9;
+  background-color: #ffffff;
 }
 
 .about-section img {
@@ -820,7 +820,7 @@ ul.portfolio li.active {
 /* Contact Us */
 
 .contact-us {
-  background-color: #f9f9f9;
+  background-color: #ffffff;
 }
 
 .contact-us-detail {
@@ -1186,7 +1186,7 @@ ul.portfolio li.active {
 /* Scroll To Top */
 
 .scroll-to-top {
-  background-color: #24b662;
+  background-color: #da3f3c;
   display: none;
   width: 50px;
   height: 50px;
