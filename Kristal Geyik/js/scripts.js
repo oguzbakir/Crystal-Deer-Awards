@@ -104,7 +104,7 @@
         typeSpeed: 70,
         startDelay: 200,
         backSpeed: 20,
-        backDelay: 500,
+        backDelay: 200,
         loop: true,
         loopCount: 40,
       });
