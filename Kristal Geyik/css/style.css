@@ -67,7 +67,7 @@ Such as : Margin, Padding, colors
 
 }
 body {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 1px;
@@ -546,8 +546,8 @@ body.loaded #preloader {
 }
 
 .about-me p {
-  padding: 50px;
-  font-size: 16px;
+  padding: 0px;
+  font-size: 20px;
 }
 
 /* Portfolio */
@@ -823,7 +823,7 @@ ul.portfolio li.active {
   font-size: 30px;
   margin-bottom: 10px;
   margin-left: 520px;
-  background-color: #fff;
+  background-color: #b7a09f;
   border-radius: 50%;
   box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
   transition: all 0.3s ease-in-out;
@@ -1458,7 +1458,7 @@ ul.portfolio li.active {
 }
 
 .color-3 {
-  color: #d8be10;
+  color: #af2525;
 }
 
 .color-4 {

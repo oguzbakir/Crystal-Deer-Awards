@@ -1,18 +1,18 @@
 /*
-   
+
     Template Name : Rolling - Freelancer Portfolio Template
     Author : UiPasta Team
     Website : http://www.uipasta.com/
     Support : http://www.uipasta.com/support/
-	
-	
+
+
 */
 
 
 /*
-   
+
    Table Of Content
-   
+
    1. Preloader
    2. Smooth Scroll
    3. Scroll Naviagation Background Change with Sticky Navigation
@@ -25,7 +25,7 @@
   10. Testimonial Carousel/Slider
   11. Statistics Counter
   12. Google Map
- 
+
 
 */
 
@@ -100,11 +100,11 @@
 
     $(window).load(function () {
       $(".typing").typed({
-        strings: ["En beğendiğin ünlüye oy ver", "Seçtiğin ünlü seçilsin", "Okulumuzda ağırlayalım"],
-        typeSpeed: 70,
-        startDelay: 200,
-        backSpeed: 20,
-        backDelay: 200,
+        strings: ["En beğendiğin ünlüye oy ver.", "Seçtiğin ünlü seçilsin.", "Okulumuzda ağırlayalım."],
+        typeSpeed: 65,
+        startDelay:50,
+        backSpeed: 40,
+        backDelay: 150,
         loop: true,
         loopCount: 40,
       });
