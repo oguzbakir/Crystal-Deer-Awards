@@ -143,6 +143,7 @@ fieldset {
 
 .section-title {
   text-align: center;
+  margin-top: -80px;
 }
 
 .section-title h2 {
