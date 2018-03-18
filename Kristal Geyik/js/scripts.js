@@ -101,9 +101,9 @@
     $(window).load(function () {
       $(".typing").typed({
         strings: ["En beğendiğin ünlüye oy ver.", "Seçtiğin ünlü seçilsin.", "Okulumuzda ağırlayalım."],
-        typeSpeed: 65,
+        typeSpeed: 40,
         startDelay:50,
-        backSpeed: 40,
+        backSpeed: 10,
         backDelay: 150,
         loop: true,
         loopCount: 40,
