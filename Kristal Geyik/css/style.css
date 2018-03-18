@@ -61,7 +61,10 @@ Such as : Margin, Padding, colors
   margin-left: 0px;
 
 }
+backgroundd{
+  background-color: #000000;
 
+}
 .grow {
   font-size: 32px;
 
@@ -541,6 +544,7 @@ body.loaded #preloader {
 }
 
 .about-me {
+  margin-top: -70px;
 }
 
 .about-me h2 {
