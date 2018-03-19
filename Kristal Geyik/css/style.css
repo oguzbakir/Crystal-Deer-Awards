@@ -1016,7 +1016,9 @@ ul.portfolio li.active {
 .footer-section a {
   color: #ffffff;
 }
-
+#services{
+  background: #657aff;
+}
 /* Responsive */
 
 @media only screen and (min-width: 767px) and (max-width: 991px) {
