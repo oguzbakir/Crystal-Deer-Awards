@@ -53,6 +53,7 @@ $(document).ready(function(){
                     console.log(value);
                     $('#AdayPhoto').attr('src',ddoptions[value][0]);
                     $('#AdayDetay').html(ddoptions[value][1]);
+                    window.scrollTo(0,document.body.scrollHeight);
                 }
             }
 
