@@ -53,11 +53,28 @@ $(document).ready(function(){
                     console.log(value);
                     $('#AdayPhoto').attr('src',ddoptions[value][0]);
                     $('#AdayDetay').html(ddoptions[value][1]);
-                    window.scrollTo(0,document.body.scrollHeight);
                 }
             }
 
         )
     ;
+    $('#oyverButton').click(function (){
+        jQuery.ajax({
+            type: "POST",
+            url: 'your_functions_address.php',
+            dataType: 'json',
+            data: {functionname: 'add', arguments: [1, 2]},
+
+            success: function (obj, textstatus) {
+                if( !('error' in obj) ) {
+                    yourVariable = obj.result;
+                }
+                else {
+                    console.log(obj.error);
+                }
+            }
+        });
+
+    });
 
 });
