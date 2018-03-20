@@ -61,9 +61,9 @@ $(document).ready(function(){
     $('#oyverButton').click(function (){
         jQuery.ajax({
             type: "POST",
-            url: 'your_functions_address.php',
+            url: 'voting.php',
             dataType: 'json',
-            data: {functionname: 'add', arguments: [1, 2]},
+            data: {functionname: 'send_vote', arguments: $('#candidate-search-select').val()},
 
             success: function (obj, textstatus) {
                 if( !('error' in obj) ) {
