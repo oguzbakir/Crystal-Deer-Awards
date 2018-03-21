@@ -40,8 +40,8 @@
       <file leaf-file-name="voting.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/voting.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="650">
-              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+            <state relative-caret-position="130">
+              <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -260,12 +260,12 @@
       <workItem from="1521402183613" duration="509000" />
       <workItem from="1521447478461" duration="1991000" />
       <workItem from="1521626167072" duration="3401000" />
-      <workItem from="1521670779428" duration="2592000" />
+      <workItem from="1521670779428" duration="3357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34877000" />
+    <option name="totallyTimeSpent" value="35642000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2747" y="752" width="3840" height="2133" extended-state="6" />
@@ -614,6 +614,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10">
           <caret line="31768" column="14" lean-forward="true" selection-start-line="31768" selection-start-column="14" selection-end-line="31768" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -652,8 +653,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/voting.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        <state relative-caret-position="130">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
         </state>
       </provider>

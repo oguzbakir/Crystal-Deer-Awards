@@ -1,3 +1,4 @@
+// Created by ze0tron
 function createOption(name,o,value) {
     el = document.createElement('option');
     el.value = value;
@@ -138,6 +139,7 @@ ddoptions = {
 $(document).ready(function(){
     var d = new Date();
     $('#kalanZaman').html(31-d.getDate()+2+" Gün");
+
     $('#search-select')
         .dropdown({
             onChange: function (value,text,$selectedItem) {
@@ -148,7 +150,7 @@ $(document).ready(function(){
                 createOption('Alt Kategori Seciniz',o,"");
                 for(var p in c){
                     //console.log("creating option : "+c[p]);
-                    createOption(c[p],o,c[p]);
+                    createOption(c[p],o,c[p].replace(' ','26'));
                 }
             }
         })
