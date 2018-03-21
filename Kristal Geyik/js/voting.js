@@ -177,8 +177,8 @@ $(document).ready(function(){
                 onChange: function (value,text,$selectedItem) {
                     //console.log(value);
                     if(value.localeCompare('Diğer')==0){
-                        $('#oyverButton').attr('href',"https://docs.google.com/forms/d/e/1FAIpQLSdlzDpbdKOb1OcBaq_dcHReaQkmK5lGXEjEhXjFOl_LJ08q3Q/viewform?usp=pp_url&entry.1755287923="+"&entry.1888246541");
-                    }
+                    console.log('diğer');
+                }
                     else {
                         $('#AdayPhoto').attr('src', ddoptions[value][0]);
                         $('#AdayDetay').html(ddoptions[value][1]);
@@ -191,10 +191,16 @@ $(document).ready(function(){
         )
     ;
     $('#oyverButton').click(function(){
-        var xhr = new XMLHttpRequest();
-        xhr.open('POST', "https://docs.google.com/forms/d/e/1FAIpQLSdlzDpbdKOb1OcBaq_dcHReaQkmK5lGXEjEhXjFOl_LJ08q3Q/formResponse?usp=pp_url&entry.1755287923=" + $('#candidate-search-select').val().replace('26', '+') + "&submit-Submit", true);
-        xhr.send();
-        $('#AdayDetay').html('Oyunuz kaydedildi.');
+        if($('#candidate-search-select').val().localeCompare('Diğer')==0){
+            var win = window.open('https://docs.google.com/forms/d/e/1FAIpQLSdlzDpbdKOb1OcBaq_dcHReaQkmK5lGXEjEhXjFOl_LJ08q3Q/viewform', '_blank');
+            win.focus();
+        }
+        else {
+            var xhr = new XMLHttpRequest();
+            xhr.open('POST', "https://docs.google.com/forms/d/e/1FAIpQLSdlzDpbdKOb1OcBaq_dcHReaQkmK5lGXEjEhXjFOl_LJ08q3Q/formResponse?usp=pp_url&entry.1755287923=" +$('#sub-search-select').val().replace('26', '+') +'-'+$('#candidate-search-select').val().replace('26', '+') + "&submit-Submit", true);
+            xhr.send();
+            $('#AdayDetay').html('Oyunuz kaydedildi.');
+        }
     });
 
 });
