@@ -368,7 +368,7 @@ body.loaded #preloader {
 
 .home-section-background {
   position: relative;
-  height: 100%;
+  /*height: 100%;*/
   background: url(../images/bg/geyik.jpg);
   background-size: cover;
   /*background-position: ;*/
@@ -1202,7 +1202,7 @@ ul.portfolio li.active {
 
 .scroll-to-top:hover,
 .scroll-to-top:focus {
-  background-color: #1bab58;
+  background-color: #B73756;
   color: #ffffff;
 }
 
@@ -1522,4 +1522,8 @@ ul.portfolio li.active {
 .aday-page{
   background-color:  rgba(201, 76, 76, 0.8);
   filter: alpha(opacity=60)
+}
+.border{
+  border: 1px solid #000000;
+  border-radius: 10px;
 }
