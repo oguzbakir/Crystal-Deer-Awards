@@ -61,8 +61,8 @@ Such as : Margin, Padding, colors
   margin-left: 0px;
 
 }
-backgroundd{
-  background-color: #000000;
+.bg-color{
+  background-color: #f9f6f0;
 
 }
 .grow {
@@ -75,7 +75,7 @@ body {
   line-height: 24px;
   letter-spacing: 1px;
   height: 100%;
-  font-family: 'Poppins', sans-serif;
+  
 }
 
 html,
@@ -146,20 +146,19 @@ fieldset {
 
 .section-title {
   text-align: center;
-  margin-top: -80px;
 }
 
 .section-title h2 {
   margin-top: 0;
   font-weight: 600;
-  border: solid #000000 3px;
-  border-radius: 25px;
+  border: solid #573454 3px;
+  border-radius: 15px;
   font-size: 38px;
   margin: 0 auto;
   padding: 10px 0;
   width: 550px;
   margin-bottom: 30px;
-  margin-top: -50px;
+  color: #B73756;
 }
 
 .section-title p {
@@ -218,7 +217,7 @@ fieldset {
 }
 
 .button-style {
-  border-radius: 50px;
+  border-radius: 15px;
   border: 3px solid #fff;
   color: #fff;
   overflow: hidden;
@@ -541,7 +540,8 @@ body.loaded #preloader {
 
 .about-section {
   overflow: hidden;
-  background-color: #bfbebe;
+  
+
 }
 
 .about-me {
@@ -560,7 +560,7 @@ body.loaded #preloader {
 /* Portfolio */
 
 .portfolio {
-  background: #ffffff;
+  
 }
 
 .portfolio-inner .mix {
@@ -660,20 +660,15 @@ ul.portfolio li.active {
   cursor: inherit;
 }
 
-/* Testimonial */
-.asagikaydir {
-  padding-top: 40px;
-}
+
 
 .testimonial-section {
-  /*background: #D1E0EB;*/
-  background: #ffffff;
+  
 
 }
 
 .testimonial-carousel-list {
   padding: 30px;
-  background-color: #fff;
   border-radius: 4px;
   box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
   transition: all 0.3s ease-in-out;
@@ -686,6 +681,7 @@ ul.portfolio li.active {
 
 .testimonial-word {
   padding: 0px 0px;
+  
 }
 
 .testimonial-word img {
@@ -778,6 +774,9 @@ ul.portfolio li.active {
 
 .services-section {
   background-color: #F9F9F9;
+  background: url(../images/bg/geyik.jpg);
+  background-size: cover;
+
 }
 
 .services-section hr {
@@ -820,7 +819,7 @@ ul.portfolio li.active {
 /* Contact Us */
 
 .contact-us {
-  background-color: #ffffff;
+  
 }
 
 .contact-us-detail {
@@ -857,9 +856,10 @@ ul.portfolio li.active {
 }
 
 .form-control {
+  border-radius: 15px!important;
   border: 2px solid transparent;
   height: 50px;
-  border-radius: 2px;
+  
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
@@ -1017,9 +1017,7 @@ ul.portfolio li.active {
 .footer-section a {
   color: #ffffff;
 }
-#services{
-  background: #4c3038;
-}
+
 /* Responsive */
 
 @media only screen and (min-width: 767px) and (max-width: 991px) {
