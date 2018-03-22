@@ -44,7 +44,6 @@
 
 
     /* Smooth Scroll */
-/*
     $('a.smoth-scroll').on("click", function (e) {
       var anchor = $(this);
       $('html, body').stop().animate({
@@ -52,7 +51,6 @@
       }, 1000);
       e.preventDefault();
     });
-*/
 
     /* Scroll Naviagation Background Change with Sticky Navigation */
 
