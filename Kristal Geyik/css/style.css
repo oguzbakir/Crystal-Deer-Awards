@@ -369,14 +369,20 @@ body.loaded #preloader {
 .home-section-background {
   position: relative;
   /*height: 100%;*/
-  background: url(../images/bg/geyik.jpg);
+  background: url(../images/bg/geyik.jpg) fixed;
   background-size: cover;
-  /*background-position: ;*/
   z-index: 1;
 }
+.typing{
+  line-height: 28px;
+}
+/*Desktop Version*/
 @media only screen and (min-width: 760px){
   .home-section-background{
     height: 100%;
+  }
+  .typing{
+    line-height: 36px;
   }
 }
 
@@ -416,8 +422,7 @@ body.loaded #preloader {
   color: #f8f8f8;
   letter-spacing: 4px;
   font-size: 23px;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
 .typed-cursor {

@@ -98,7 +98,12 @@
 
     $(window).load(function () {
       $(".typing").typed({
-        strings: ["En beğendiğin ünlüye oy ver.", "Seçtiğin ünlü seçilsin.", "Okulumuzda ağırlayalım."],
+        // strings: ["En beğendiğin ünlüye oy ver.", "Seçtiğin ünlü seçilsin.", "Okulumuzda ağırlayalım."],
+        strings: [
+          "Kristal Geyik Ödülleri öğrenci oylaması başladı!",
+          "Üniversitemizde görmek istediğin firmaya/kişiye oy ver",
+          "Kristal Geyik Ödülleri sahibini bulsun!",
+          "Oylama için son tarih 2 Nisan!"],
         typeSpeed: 40,
         startDelay:50,
         backSpeed: 10,
